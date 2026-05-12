@@ -72,11 +72,11 @@ jobs:
             for (const issue of openIssues) {
               if (syncedNumbers.has(issue.number)) continue;
 
-              const upstreamUrl = 'https://github.com/' + UPSTREAM_OWNER + '/' + UPSTREAM_REPO + '/issues/' + issue.number;
+              const upstreamUrl = 'https://www.github.com/' + UPSTREAM_OWNER + '/' + UPSTREAM_REPO + '/issues/' + issue.number;
               const createdDate = new Date(issue.created_at).toDateString();
               const issueBody = issue.body || 'No description provided.';
-              const body = '> Upstream issue: [' + UPSTREAM_OWNER + '/' + UPSTREAM_REPO + '#' + issue.number + '](' + upstreamUrl + ')\n' +
-                '> Opened by: @' + issue.user.login + '\n' +
+              const body = '> Upstream issue: ' + UPSTREAM_OWNER + '/' + UPSTREAM_REPO + ' issue #' + issue.number + '\n' +
+                '> Opened by: ' + issue.user.login + '\n' +
                 '> Created: ' + createdDate + '\n\n' +
                 '---\n\n' +
                 issueBody;
