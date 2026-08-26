@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'Exercise 1, Task 4: Use Copilot in Excel to model What-If scenarios'
-  description: Let's begin by requesting the what-if scenario. Ask Copilot to update the Relecloud acquisition financials to reflect a 1x increase in the earnings before interest, taxes, depreciation, and amortization (EBITDA) multiple and a 20% increase in synergy savings.
+  description: Let's begin by requesting the what-if scenario. Ask Copilot to create a new sheet that doubles the EBITDA values in the Financial Analysis sheet and increases the midpoint of each synergy savings range in the Integration Planning sheet by 20%, showing the original and updated values side by side.
   duration: 42 minutes
   level: 100
   islab: true
@@ -26,7 +26,9 @@ Perform the following steps to complete this task:
 
 4.  On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
 
-5.  Let’s begin by updating the Relecloud acquisition numbers based on a series of what-if scenarios. Verify you’re in the **Financial Analysis** sheet. In the Copilot prompt field, ask Copilot to perform a what-if scenario by updating the Relecloud acquisition financials to reflect a 1x increase in the earnings before interest, taxes, depreciation, and amortization (EBITDA) multiple and a 20% increase in synergy savings. Ask it to return the results in a new sheet. 
+5.  Let’s begin by updating the Relecloud acquisition numbers based on a series of what-if scenarios. Verify you’re in the **Financial Analysis** sheet. In the Copilot prompt field, submit the following prompt so the baseline assumptions are explicit and Copilot is less likely to ask follow-up questions:
+
+    **Using the current values in the Financial Analysis sheet as the baseline, create a what-if scenario in a new sheet for the Relecloud acquisition model. Increase each EBITDA value by 100% (treat a 1x increase as doubling the current EBITDA amount). For synergy savings, use the midpoint of each estimated annual benefit range in the Integration Planning sheet as the baseline, increase each midpoint by 20%, and show the original and updated values side by side. Include totals where appropriate and clearly label the new sheet.**
 
 6.  Review the results. Remain in this new what-if sheet and then ask Copilot to perform an EBITDA what-if scenario in which it generates the following charts in a new sheet to make it easy to visualize the magnitude and timing of improvements:
 
