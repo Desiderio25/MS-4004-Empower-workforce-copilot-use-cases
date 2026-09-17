@@ -17,13 +17,13 @@ To create this template, you plan to define its purpose, specify required sectio
 
 #### Using Copilot in Word
 
-Copilot in Word can work in either **Edit with Copilot** mode or **Chat only** mode. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+Copilot in Word can work in either **Allow editing** mode or **Chat only** mode. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
 
-When **Edit with Copilot** is selected, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
+When **Allow editing** is selected, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
 
 When **Chat only** is selected, Copilot responds in the Copilot pane without changing the document. It can still research topics, summarize information, and draft text, but it does not modify the document directly. Instead, responses remain in the Copilot pane, where you can review them and decide what, if anything, should be added to the document. This approach is useful when you want Copilot to act as a research assistant or idea generator while maintaining full control over the content that gets inserted into your document.
 
-This task uses the **Edit with Copilot** functionality.
+This task uses the **Allow editing** functionality.
 
 1. Create a folder titled **EcoSense360-RFP-Documents** in your OneDrive. When you finish creating the RFP template at the end of this task, you should copy it into this folder. You plan to use this folder to store all the supporting documents that you download in Task 3. These documents are going to provide the knowledge source content for the new EcoSense 360 RFP Response agent.
 
