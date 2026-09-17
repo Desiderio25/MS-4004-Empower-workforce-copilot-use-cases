@@ -13,15 +13,15 @@ One of Contoso's marketing analysts provided you with a monthly performance trac
 
 #### Using Copilot in Excel
 
-Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in-place changes to worksheets, tables, and formulas.
+Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Allow editing** in the Copilot pane for making direct, in-place changes to worksheets, tables, and formulas.
 
-- You should use Copilot's standard prompts in Excel for quick questions, simple summaries, or one-off insights about the data you're already viewing. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the workbook. 
+- You should use Copilot's standard prompts in Excel for quick questions, simple summaries, or one-off insights about the data you're already viewing. When using the Copilot pane, if you enter a prompt without selecting **Allow editing**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the workbook. 
 
-- You should use **Edit with Copilot** when you want Microsoft Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in-place changes. **Edit with Copilot** is designed for hands-on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do.
+- You should use **Allow editing** when you want Microsoft Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in-place changes. **Allow editing** is designed for hands-on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do.
 
-**Edit with Copilot** is designed for hands on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do. In summary, use **chat style** Microsoft Copilot for thinking and generating ideas; use **Edit with Copilot** for hands on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
+**Allow editing** is designed for hands on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do. In summary, use **chat style** Microsoft Copilot for thinking and generating ideas; use **Allow editing** for hands on editing inside the file. **Allow editing** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
 
-This task uses the **Edit with Copilot** functionality.
+This task uses the **Allow editing** functionality.
 
 In addition, Microsoft Copilot in Excel provides a response control selector that lets you choose which AI model Microsoft Copilot uses to work with your workbook. You can leave this set to **Auto** (the default option) and let Microsoft Copilot select a model for you, or choose a specific model when you want to influence how Microsoft Copilot approaches the task.
 
