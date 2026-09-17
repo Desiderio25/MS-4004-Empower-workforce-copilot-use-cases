@@ -92,8 +92,8 @@ Perform the following steps to complete this task:
 
 19. Note the icon tray that appears below the organized group of notes. If you aren't satisfied with the categories, select the **Regenerate** button on the icon tray.
 
-   > [!TIP]
-   > You can select the **Regenerate** button as many times as needed until you're satisfied with the categories that Copilot provides. Select this button several times and note the changes that Copilot makes each time. Besides changing category names and relocating notes, Copilot might add or reduce the number of categories with each regeneration.
+    > [!TIP]
+    > You can select the **Regenerate** button as many times as needed until you're satisfied with the categories that Copilot provides. Select this button several times and note the changes that Copilot makes each time. Besides changing category names and relocating notes, Copilot might add or reduce the number of categories with each regeneration.
 
 20. After regenerating the categories several times, you're not sure which iteration you liked best. While Copilot doesn't currently support going back to a previous categorization, it does allow you to start over. Select the **Revert** button to return to the starting list of yellow sticky notes.
 

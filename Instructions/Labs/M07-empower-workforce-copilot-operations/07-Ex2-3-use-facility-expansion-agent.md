@@ -13,7 +13,7 @@ In this task, you take on the role of Contoso project manager who's involved in 
 
 Perform the following steps to complete this task:
 
-1. The **Facility Expansion FAQ Assistant** should still be open from the prior task. If not, then select the agent on the Microsoft 365 home page.
+1. The **Facility Expansion FAQ Assistant** should still be open from the prior task. If not, then select the agent on the Microsoft Copilot home page.
 
 2. Start a conversation with your **Facility Expansion FAQ Assistant**. Ask questions about the following topics related to the distribution center expansion:
 

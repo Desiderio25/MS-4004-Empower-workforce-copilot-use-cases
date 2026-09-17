@@ -47,7 +47,7 @@ Perform the following steps to complete this task:
 
     While looking at the email, you decide to make one more change. You're not sure about the tone of the email, so drag your cursor over the entire email to highlight all of its content. When you do so, note how Copilot displays the **Open Copilot** (pencil) icon.
 
-9. In the Copilot menu, select **Change Tone**, and then select one of the tone options.
+9. In the Copilot menu, select **Change Tone**, and then select one of the tone options. If **Change Tone** is not visible, ensure that the Copilot pane is open and that you have highlighted the email content you want to modify. Choose the tone that best fits your desired style.
 
 10. Review the results of the modified email that appears in the draft window. You still aren't satisfied with the way it sounds, so try a different tone.
 
@@ -55,7 +55,7 @@ Perform the following steps to complete this task:
 
 12. After proofing the email one last time, you aren't sure whether the paragraph on emergency updates should be longer. You decide to have Copilot draft a longer version of this paragraph to see how it sounds. To do so, highlight just that paragraph and then select the **Open Copilot** icon.
 
-13. In the Copilot menu that appears, select the **Make it longer** option. Copilot opens a draft window and creates an expanded version of that paragraph. After reading this updated version, you feel that the original version sounds better for your audience. You don't want to implement this expanded version, so select the **Discard** option in the Copilot menu.
+13. In the Copilot menu that appears, select the **Make it longer** option. Copilot opens a draft window and creates an expanded version of that paragraph. After reading this updated version, you feel that the original version sounds better for your audience. You don't want to implement this expanded version, so select the **Discard** icon in the Copilot menu.
 
 14. Notice how Copilot returns you to the email with the original version of the emergency updates paragraph left intact.
 

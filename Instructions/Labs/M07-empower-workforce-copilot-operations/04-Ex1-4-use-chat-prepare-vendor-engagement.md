@@ -28,15 +28,15 @@ You plan to use Copilot Chat to assist with this process. Chat can pull context 
 
 #### Using Copilot Chat  
 
-In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in‑depth response style depending on the task.
+In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in-depth response style depending on the task.
 
-In **Work** mode, Copilot is optimized for secure, work-context queries, while **Web** mode retrieves external information from public sources. In either mode, you can use the response mode selector to choose between faster responses or deeper reasoning, or leave it set to **Auto** to let Copilot decide the appropriate response depth.
+In **Work IQ** mode, Copilot chat is optimized for secure, work-context queries, while when **Work IQ** mode is disabled it operates in **Web** mode and retrieves external information from public sources. In either mode, you can use the response mode selector to choose between faster responses or deeper reasoning, or leave it set to **Auto** to let Copilot decide the appropriate response depth.
 
-If you've used Copilot in Excel, you know that it also includes a response control selector. However, its options are different from the Chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might look similar, they control different aspects of Copilot and aren't the same setting.
+If you've used Copilot in Excel, you know that it also includes a response control selector. However, its options are different from the Copilot chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might look similar, they control different aspects of Copilot and aren't the same setting.
 
 Perform the following steps to complete this task:
 
-1. In your web browser, go to the **Microsoft Copilot** home page. Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs.
+1. In your web browser, go to the **Microsoft Copilot** home page. Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, turn on the **Work IQ** option. Turning off the **Work IQ** option doesn't apply here, since it searches external sources like public websites and blogs.
 
 2. You want to begin by having Copilot help prepare for vendor engagement. Specifically, you want Copilot Chat to summarize the decision criteria that should be used to select an HVAC vendor for this heating system project. You plan to have Copilot use this information to populate a decision matrix. Start by attaching the **Heating System Comparison** report that you created in Task 2 to this prompt.
 
@@ -54,13 +54,13 @@ Perform the following steps to complete this task:
 
 9. Once you finish updating the decision matrix, you can use it as a decision-making tool and a foundation for the RFP and executive summary. Ask Copilot to format the decision matrix as a downloadable Word report that includes a title, introduction, the decision matrix table, and a usage guidance paragraph that explains how to use the matrix for vendor selection. The purpose of the usage guidance paragraph is to help leadership understand how to interpret the matrix.
 
-10. Download the decision matrix document once Copilot provides the download link.
+10. Download the decision matrix document by closing the document preview if it's open, selecting **More options (...)** next to the file name on the document card, selecting **Download**, and then saving the document to your device.
 
 11. You're now ready to have Copilot Chat generate the Request for Proposal (RFP). In the Copilot Chat prompt, attach the decision matrix document that you downloaded and ask Copilot to draft an RFP for HVAC vendors using the decision criteria and the matrix in the attached file. The decision matrix should help Copilot tailor the RFP to the evaluation criteria. The RFP should include project scope, timeline, and evaluation criteria.
 
 12. Review the RFP for accuracy and completeness, and refine it further if needed.
 
-13. Ask Copilot to format the RFP into a downloadable Word document. Download the RFP once Copilot provides the download link.
+13. Ask Copilot to format the RFP into a downloadable Word document if it hasn't already done so. Download the RFP using the download link or by selecting **More options (...)** next to the file name on the document card and then selecting **Download**.
 
 14. You're now at the end of the process. At this point, you want Copilot to create an executive summary that references the decision matrix as the basis for recommendations. Ask Copilot to:
 
@@ -78,4 +78,4 @@ Perform the following steps to complete this task:
 
 15. Review the suggested prompts that Copilot displays and submit any that you feel can help improve the executive summary. If no suggested prompts are displayed, create and submit your own prompt to improve the executive summary.
 
-16. Ask Copilot to format the executive summary into a downloadable Word document. Download the document once Copilot provides the download link.
+16. Ask Copilot to format the executive summary into a downloadable Word document. Download the document once Copilot provides the download link or by selecting **More options (...)** next to the file name on the document card and then selecting **Download**.

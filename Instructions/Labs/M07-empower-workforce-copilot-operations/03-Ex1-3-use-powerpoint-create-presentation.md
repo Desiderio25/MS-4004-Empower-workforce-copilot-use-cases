@@ -13,13 +13,13 @@ In the prior task, you used Copilot in Word to create the **Heating System Compa
 
 #### Using Copilot in PowerPoint
 
-PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Edit with Copilot** in the Copilot pane for making direct, in-place edits to slides, layouts, and presentation structure.
+PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Allow editing** in the Copilot pane for making direct, in-place edits to slides, layouts, and presentation structure.
 
-- You should use Copilot's standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the presentation.
+- You should use Copilot's standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Allow editing**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the presentation.
 
-- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation, such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Edit with Copilot** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than just suggesting content in a separate response.
+- You should use **Allow editing** when you want Copilot to work directly in the presentation, such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Allow editing** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than just suggesting content in a separate response.
 
-In summary, use chat-style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands-on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
+In summary, use chat-style Copilot for thinking and generating ideas; use **Allow editing** for hands-on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
 
 Perform the following steps to complete this task:
 
@@ -54,3 +54,5 @@ Perform the following steps to complete this task:
 15. You notice that there isn't a slide at the end of the presentation for a Question and Answer (Q&A) session. Ask Copilot to add a Question and Answer (Q&A) slide after the final slide in the presentation. If Copilot asks you what type of slide to add, select the answers that you want it to apply, or select **Skip all** if you want Copilot to use its best judgment.
 
 16. Verify that Copilot added the slide at the end of the deck. If it didn't, then drag and drop the slide to the proper location.
+
+17. When you are satisfied with the presentation,   save it to your OneDrive folder as **Heating System Comparison Presentation.pptx**.

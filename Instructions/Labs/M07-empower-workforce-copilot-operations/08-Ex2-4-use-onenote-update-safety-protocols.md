@@ -19,30 +19,32 @@ Perform the following steps to complete this task:
 
 2. In your web browser, go to the **Microsoft Copilot** home page, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **OneNote**.
 
-3. In **OneNote for the web**, in the list of OneNote files, the **Recent** list should display the **Safety Procedures** file. If the file doesn't appear in the list, enter `Contoso` in the **Search** box. The **Safety Procedures** file should appear in the list of files. Select the file to open it.
+3. Sign in to OneNote if prompted.
 
-4. Select **Copilot** in the menu bar to open the Copilot pane. If announcements appear, select the **Skip** button at the bottom of the Copilot pane to close them.
+4. In **OneNote for the web**, in the list of OneNote files, the **Recent** list should display the **Safety Procedures** file. If the file doesn't appear in the list, enter `Contoso` in the **Search** box. The **Safety Procedures** file should appear in the list of files. Select the file to open it.
 
-5. Ask Copilot to review these safety procedures and identify any areas that might be affected by the construction of the new warehouse wing and dock upgrades.
+5. Select **Copilot** in the menu bar to open the Copilot pane. If announcements appear, select the **Skip** button at the bottom of the Copilot pane to close them.
 
-6. Review Copilot's analysis and note the impacted areas. At the end of Copilot's response, if Copilot displays a suggested prompt to provide recommendations to mitigate these impacts, then submit that prompt. If no such prompt appears, then manually enter this request in the prompt field and submit it.
+6. Ask Copilot to review these safety procedures and identify any areas that might be affected by the construction of the new warehouse wing and dock upgrades.
 
-7. Review Copilot's response. Also review the suggested prompts. Submit any of the prompts that interest you.
+7. Review Copilot's analysis and note the impacted areas. At the end of Copilot's response, if Copilot displays a suggested prompt to provide recommendations to mitigate these impacts, then submit that prompt. If no such prompt appears, then manually enter this request in the prompt field and submit it.
 
-8. At this point, you want Copilot to update the safety protocols in light of the construction project. Ask Copilot to draft updated safety protocols that reflect temporary construction zones, new equipment, revised loading dock procedures, and emergency exit changes.
+8. Review Copilot's response. Also review the suggested prompts. Submit any of the prompts that interest you.
 
-9. Review the draft that Copilot generated. Ask it to format this draft as a OneNote page with headings and icons.
+9. At this point, you want Copilot to update the safety protocols in light of the construction project. Ask Copilot to draft updated safety protocols that reflect temporary construction zones, new equipment, revised loading dock procedures, and emergency exit changes.
 
-10. Once Copilot completes this formatting, select the **Copy response** icon that appears at the end of the draft to copy the updated draft to your clipboard.
+10. Review the draft that Copilot generated. Ask it to format this draft as a OneNote page with headings and icons.
 
-11. Select **+ Add page** in your current notebook in OneNote. Select in the title field on the page and enter `Expansion protocols` as the page title. Select into the page (below the title) and paste in the copied draft content (**Ctrl+V**). Delete any extraneous conversational text that was copied in at the start and end of the content.
+11. Once Copilot completes this formatting, select the **Copy response** icon that appears at the end of the draft to copy the updated draft to your clipboard.
 
-12. To share these changes, ask Copilot to generate a concise summary of the safety protocol changes to share with Operations staff.
+12. Select **+ Add page** in your current notebook in OneNote. Select in the title field on the page and enter `Expansion protocols` as the page title. Select into the page (below the title) and paste in the copied draft content (**Ctrl+V**). Delete any extraneous conversational text that was copied in at the start and end of the content.
 
-13. Review the summary that Copilot generated. Feel free to request any changes. Once you're satisfied with summary, select the **Copy response** icon that appears at the end of the draft to copy the summary to your clipboard.
+13. To share these changes, ask Copilot to generate a concise summary of the safety protocol changes to share with Operations staff.
 
-14. Add another page to your notebook and title it `Summary of protocol changes`. Paste in the copied content and delete any extraneous conversational text that was copied in at the start and end of the content.
+14. Review the summary that Copilot generated. Feel free to request any changes. Once you're satisfied with summary, select the **Copy response** icon that appears at the end of the draft to copy the summary to your clipboard.
 
-15. To facilitate sending this Summary page to the Operations staff in the next task, you want to save it as a PDF file. In OneNote, make sure the Summary page is still displayed. Then go to **File** > **Print**. On the **Print** page, select the **Print** icon to print this page. In the **Print** window, expand the **Printer** drop-down, scroll to the top of the printer options and select **Save as PDF**. Select the **Save** button and save the PDF file to your OneDrive.
+15. Add another page to your notebook and title it `Summary of protocol changes`. Paste in the copied content and delete any extraneous conversational text that was copied in at the start and end of the content.
+
+16. To facilitate sending this Summary page to the Operations staff in the next task, you want to save it as a PDF file. In OneNote, make sure the Summary page is still displayed. Then go to **File** > **Print**. On the **Print** page, select the **Print** icon to print this page. In the **Print** window, expand the **Printer** drop-down, scroll to the top of the printer options and select **Save as PDF**. Select the **Save** button and save the PDF file to your OneDrive.
 
 

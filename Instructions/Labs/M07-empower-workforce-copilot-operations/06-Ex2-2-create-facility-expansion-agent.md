@@ -1,13 +1,13 @@
 ---
 lab:
-  title: 'Exercise 2, Task 2: Use Copilot Studio to build a Facility Expansion FAQ agent'
+  title: 'Exercise 2, Task 2: Use Agent Builder to build a Facility Expansion FAQ agent'
   description: 'For this agent, enter the following prompt and then select the forward arrow (Send) icon to submit the prompt: Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso’s Fargo distribution center expansion, such as construction timelines, safety protocols, temporary evacuation routes, inventory move waves, vendor access requirements, and operational impacts—using only approved documents that are assigned to this agent as knowledge sources.'
   duration: 48 minutes
   level: 100
   islab: true
 ---
 
-# Exercise 2, Task 2: Use Copilot Studio to build a Facility Expansion FAQ agent
+# Exercise 2, Task 2: Use Agent Builder to build a Facility Expansion FAQ agent
 ---
 Contoso broke ground on the Fargo distribution center expansion. The company is tracking project milestones in Loop (Task 1). As the Operations Leader, you received feedback that leadership and frontline teams need reliable, one-stop answers to recurring questions about construction timelines, temporary access changes, safety requirements, and inventory move windows—without flooding Operations with emails or chat pings.
 
@@ -35,7 +35,7 @@ The scope of questions is beginning to overwhelm the Operations team, especially
 - Offer concise fallbacks.
 
 > [!NOTE]
-> In this exercise, you use the Copilot Studio lite experience to create the Facility Expansion FAQ Assistant agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
+> In this exercise, you use the Agent Builder lite experience to create the Facility Expansion FAQ Assistant agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Agent Builder experience.
 
 Perform the following steps to complete this task:
 
@@ -57,42 +57,48 @@ Perform the following steps to complete this task:
 
 2. Open a new tab in your web browser and then open **Microsoft Copilot**.
 
-3. In Microsoft Copilot, select **Agents** in the navigation pane, then select **Create agent**. Doing so opens Copilot Studio's **Agent Builder** and displays the **New agent** page.
+3. In Microsoft Copilot, select **Agents** in the navigation pane, then select **Create agent**. Doing so opens **Agent Builder** and displays the **New agent** page.
 
 4. On the **New Agent** page, you want to ask Copilot to create an agent. In the prompt, you should enter the agent's name and a general description of what the agent is about, who its target audience is, and what you want it to do.  
     
     For this agent, enter the following prompt and then select the forward arrow (Send) icon to submit the prompt:  
     
-    **Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso's Fargo distribution center expansion, such as construction timelines, safety protocols, temporary evacuation routes, inventory move waves, vendor access requirements, and operational impacts-using only approved documents that are assigned to this agent as knowledge sources.**
+    ```prompt
+    Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso's Fargo distribution center expansion, such as construction timelines, safety protocols, temporary evacuation routes, inventory move waves, vendor access requirements, and operational impacts-using only approved documents that are assigned to this agent as knowledge sources.
+    ```
 
-5.  After you submit the prompt, the **Agent Builder** form appears for your new agent. The **Agent Builder** chat pane appears on the left, and the agent details appear on the right. At the top of the form are a **Configure** tab and a **Preview** tab.
+5. After you submit the prompt, the **Agent Builder** form appears for your new agent. The **Agent Builder** chat pane appears on the left, and the agent details appear on the right. At the top of the form are a **Configure** tab and a **Preview** tab.
 
     - The **Agent Builder** chat pane on the left enables you to carry on a conversation with Copilot to refine your agent.
 
+    - The **Configure** tab enables you to define the detailed settings that drive the agent.
+
     - The **Preview** tab enables you to test the agent by entering starter prompts or custom messages.
 
-    Wait a minute or two for Copilot to create the agent, at which time it displays the agent's name and description in the **Agent preview** pane.
+    Wait one or two minutes for Copilot to create the agent. When the process is complete, the **Agent Builder** pane displays the agent's name and description.
 
 6. Select the **Configure** tab at the top of the form. Let's see what Copilot did based on the prompt that you entered.
 
-7. On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that you entered. Scroll down to the **Instructions** field. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed level of instructions that Copilot generated.
+7. On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that you entered. Scroll down to the **Instructions** section. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed instructions that Copilot generated.
 
    > [!IMPORTANT]
    > The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
-8. If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field, or you can ask Copilot to update the instructions for you.  
+8. If you wish to change the instructions, you can either manually edit them directly in the **Instructions** section, or you can ask Copilot to update the instructions for you.  
     
-    After reviewing the **Instructions**, you decide that you want to have Copilot add a couple of other items to the instruction set. To do so, select the **Agent Builder** chat pane on the left and then enter the following prompt:
+    After reviewing the **Instructions**, you decide that you want Copilot to add several items to the instruction set. In the **Agent Builder** chat pane on the left, enter the following prompt:
+    
+    ```prompt
+    Update the Instructions to include the following items:
 
-    **Update the Instructions to include the following items:**
+    - Don't speculate. If information is missing or ambiguous, flag the gap and provide a polite fallback response, such as: "I don't have a verified answer for that yet. Please check the Expansion Overview or contact Operations Intake."
 
-    - **Don't speculate. If information is missing or ambiguous, flag the gap and provide a polite fallback response, such as: "I don't have a verified answer for that yet. Please check the Expansion Overview or contact Operations Intake."**
+    - Politely decline sensitive topics (for example, budget breakdowns or contracts) with: "I'm unable to share that information. Please contact the Project Controller."
 
-    - **Politely decline sensitive topics (for example, budget breakdowns or contracts) with: "I'm unable to share that information. Please contact the Project Controller."**
+    - Keep answers specific to the Fargo expansion and the current 24-week timeline.
 
-    - **Keep answers specific to the Fargo expansion and the current 24-week timeline.**
-
-    - **Provide links/citations and highlight critical dates or zones in the response.**
+    - Provide links/citations and highlight critical dates or zones in the response.
+    ```
 
 9. Review Copilot's response after updating the instructions. To verify the changes that Copilot made, select the **Configure** tab and then scroll down to the **Instructions** field. Verify that Copilot added the new instructions that you requested.
 
@@ -102,19 +108,19 @@ Perform the following steps to complete this task:
 
 11. Review Copilot's recommendations. You're pleased with its suggestions, so ask Copilot to add them all to the agent's instructions.
 
-12. Once Copilot responds that it updated the instructions, select the **Configure** tab and scroll through the **Instructions**. Note the new items that Copilot added.
+12. Once Copilot responds that it updated the instructions, on the **Configure** tab, scroll through the **Instructions**. Note the new items that Copilot added.
 
 13. Now that you're satisfied with the instructions, you're ready to configure the agent's knowledge sources and starter prompts.  
     
     In the **Configure** tab, scroll down to the **Knowledge** section and verify the **Web search** toggle switch is disabled. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to use only the files that you provide. If the toggle switch is enabled, then disable it now.
 
-14. In the **Knowledge** section, select the **+ Add knowledge** button. In the data picker that appears, use the search field (**Paste a link or search for your data**) or the **Files** tab to locate and select the seven files that you downloaded in step 1 and stored on your OneDrive.
+14. In the **Knowledge** section, select **+ Add knowledge**, and then select **Attach cloud files** (cloud icon). In the **Pick items** window that appears, locate and select the seven files that you downloaded in step 1 and stored on your OneDrive.
 
 15. For **Suggested prompts**, you can have Copilot generate prompts for you, or you can manually create your own prompts. Let's try both methods.  
     
     To have Copilot generate suggested prompts, select the **Agent Builder** chat pane on the left and then ask Copilot to generate three suggested prompts for the agent. Note how each prompt has a title and a message.
 
-16. You now want to enter several of your own prompts. Select the **Configure** tab and scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent.  
+16. You now want to enter several of your own prompts. On the **Configure** tab, scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent.  
     
     For each prompt that you want to manually add, select the **+ Add a suggested prompt** option that appears below the prompts.  
     
@@ -142,7 +148,7 @@ Perform the following steps to complete this task:
 
 18. Once you're satisfied with the results for the suggested prompts, select the **Create** button to create the agent.
 
-19. Once the agent is created, a dialog box appears that indicates the agent was successfully created. In this dialog box, you can either go to the agent or share it. Select the **Go to agent** option.
+19. Once the agent is created, a dialog box appears indicating that the agent was successfully created. In this dialog box, you can either start chatting with the agent or share it. Select the **Start chat** option.
 
 > [!NOTE]
 > At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn't required because you're working within your own tenant.
