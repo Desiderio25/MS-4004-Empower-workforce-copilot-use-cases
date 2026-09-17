@@ -13,15 +13,15 @@ Your next task is to share the information that you captured in the **Smart Sens
 
 #### Using Copilot in PowerPoint
 
-PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Edit with Copilot** in the Copilot pane for making direct, in‑place edits to slides, layouts, and presentation structure.
+PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Allow editing** in the Copilot pane for making direct, in‑place edits to slides, layouts, and presentation structure.
 
-- You should use Copilot's standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the presentation.
+- You should use Copilot's standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Allow editing**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the presentation.
 
-- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation, such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Edit with Copilot** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than suggesting content in a separate response.
+- You should use **Allow editing** when you want Copilot to work directly in the presentation, such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Allow editing** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than suggesting content in a separate response.
 
-In summary, use chat-style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands-on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
+In summary, use chat-style Copilot for thinking and generating ideas; use **Allow editing** for hands-on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
 
-This task uses the **Edit with Copilot** functionality.
+This task uses the **Allow editing** functionality.
 
 Perform the following steps to complete this task:
 
