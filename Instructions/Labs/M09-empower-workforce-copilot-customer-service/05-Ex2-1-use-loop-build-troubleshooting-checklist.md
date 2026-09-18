@@ -15,7 +15,7 @@ To make this guide collaborative, flexible, and always up to date, you plan to u
 
 Perform the following steps to complete this task:
 
-1. In your Microsoft Edge browser, sign in to the **Microsoft Copilot** home page [**https://m365.cloud.microsoft.com**](https://m365.cloud.microsoft.com), select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **Loop**.
+1. In your web browser, sign in to the **Microsoft Copilot** home page [Microsoft Copilot](https://copilot.cloud.microsoft/) at `https://copilot.cloud.microsoft/`, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **Loop**.
 
 2. In **Loop for the web**, select the plus sign **(+)** icon, then select **New workspace** to create a new workspace titled **Troubleshooting Guide**. Select the **Create** button.
 

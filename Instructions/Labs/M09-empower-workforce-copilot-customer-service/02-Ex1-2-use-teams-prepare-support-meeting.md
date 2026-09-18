@@ -45,7 +45,7 @@ Perform the following steps to complete this task:
 
     Store these files in your OneDrive folder.
 
-2. In your Microsoft Edge browser, go to the **Microsoft Copilot** home page and select the **App Launcher** (grid icon), select **More Apps**, and then select **Teams** from the list of available apps.
+2. In your web browser, go to the **Microsoft Copilot** home page and select the **App Launcher** (grid icon), select **More Apps**, and then select **Teams** from the list of available apps.
 
 3. In **Teams for the web**, select **Copilot** in the left navigation pane. Doing so opens the Copilot Chat experience inside Teams.
 

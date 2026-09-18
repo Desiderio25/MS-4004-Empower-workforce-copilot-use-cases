@@ -13,7 +13,7 @@ As the Customer Service Manager at Lamna Healthcare Company, you're looking to s
 
 To accomplish this goal, you plan to use Copilot in OneNote to generate a reusable template that captures all the essential elements of each client call, from the initial concern to the resolution and follow-up steps. Copilot can help in creating sections for client details, a summary of the issue, and space for internal notes that don't need to be shared with the client. By ensuring the template is easy to fill out in real time, you can create a tool that saves your team valuable time, helps improve data consistency, and supports quicker responses for future calls. You plan to save this template in a shared notebook, making it accessible to the entire customer support team for use across the board.
 
-1. In your Microsoft Edge browser, go to the **Microsoft Copilot** home page, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **OneNote**.
+1. In your web browser, go to the **Microsoft Copilot** home page, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **OneNote**.
 
 2. In **OneNote for the web**, create a blank notebook titled **Support team shared notebook**.
 

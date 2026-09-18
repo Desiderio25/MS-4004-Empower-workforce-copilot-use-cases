@@ -19,7 +19,7 @@ Perform the following steps to complete this task:
 
 2. Open the **TreyResearch_Support_Cases.xlsx** spreadsheet and review the results. You might have to expand each column width to see the full extent of the answers. Close the spreadsheet once you're done.
 
-3. In your Microsoft Edge browser, go to the **Microsoft Copilot** home page and select the **Analyst** agent in the navigation pane.
+3. In your web browser, go to the **Microsoft Copilot** home page and select the **Analyst** agent in the navigation pane.
 
 4. In the **Analyst** agent, attach the **TreyResearch_Support_Cases.xlsx** spreadsheet. Then ask the agent to analyze the attached dataset and produce a concise briefing that includes: top issue categories, severity mix, modules most impacted, escalation rate, and resolution-time distribution.
 
