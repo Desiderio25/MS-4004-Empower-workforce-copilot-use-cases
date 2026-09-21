@@ -54,6 +54,8 @@ Perform the following steps to complete this task:
 
     - The **Agent Builder** chat pane on the left enables you to carry on a conversation with Copilot to refine your agent.
 
+    - The **Configure** tab enables you to define the detailed settings that drive the agent.
+
     - The **Preview** tab enables you to test the agent by entering starter prompts or custom messages.
 
     Wait a minute or two for Copilot to create the agent, at which time it displays the agent's name and description in the **Agent preview** pane.
