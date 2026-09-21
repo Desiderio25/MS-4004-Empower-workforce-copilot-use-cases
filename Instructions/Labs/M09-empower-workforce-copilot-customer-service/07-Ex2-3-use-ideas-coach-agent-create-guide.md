@@ -64,7 +64,7 @@ Perform the following steps to complete this task:
 
 14. Feel free to follow up on any of the suggested ideas presented by the agent. 
 
-15. Once you're satisfied with the response, select the ellipsis (...), then select the **Edit in Pages** icon at the end of the response. From within **Pages**, select the **Create** button and then select **Document** from the menu that appears. Select **Open Word**. Doing so generates a document in **Word for the web** that contains the agent's response.
+15. Once you're satisfied with the response, select the ellipsis **(...)**, then select the **Edit in Pages** icon at the end of the response. From within **Pages**, select the ellipsis **(...)** on the top right corner and then select **Export** > **Document**. Select **Open Word**. Doing so generates a document in **Word for the web** that contains the agent's response.
 
 16. In a real-world scenario, you could now use Copilot's Writing Coach to polish the Word document into a clean, professional troubleshooting guide for Tailwind's dealer network. We're going to skip this step since you did something similar in the prior task using the Writing Coach, so you should be familiar with how it works and the benefits it provides.
 

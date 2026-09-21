@@ -22,35 +22,37 @@ Since Copilot in Word specializes in generating and transforming content, you pl
 
 #### Using Copilot in Word  
 
-Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+Copilot in Word can work in either **Allow editing** mode or **Chat only** mode. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
 
-When **Edit with Copilot** is enabled, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
+When **Allow editing** is selected, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
 
-When **Edit with Copilot** is disabled, Copilot behaves more like Copilot Chat. It can still research topics, summarize information, and draft text, but it doesn't automatically modify the document. Instead, responses appear in the Copilot pane, and you decide what—if anything—gets added to the document. This approach is useful when you want Copilot to act as a research assistant or idea generator while maintaining full control over what content is inserted.
+When **Chat only** is selected, Copilot responds in the Copilot pane without changing the document. It can still research topics, summarize information, and draft text, but it does not modify the document directly. Instead, responses remain in the Copilot pane, where you can review them and decide what, if anything, should be added to the document. This approach is useful when you want Copilot to act as a research assistant or idea generator while maintaining full control over the content that gets inserted into your document.
 
-This task uses the **Edit with Copilot** functionality.
+This task uses the **Allow editing** functionality.
 
 Perform the following steps to complete this task:
 
-1. In your Microsoft Edge browser, go to the **Microsoft Copilot** home page, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **Word**.
+1. In your web browser, go to the **Microsoft Copilot** home page, select the **App Launcher** (grid icon), and then select **More Apps**. From the list of apps, select **Word**.
 
-2. In **Word** **for the web**, create a blank document.
+2. In **Word for the web**, create a blank document.
 
-3. In the bottom-right corner of the Word document, select the **Copilot** icon to open the Copilot pane. Verify the pane opens in edit mode. The heading should read **Let's edit your document**, and the prompt field should display the placeholder text **Describe what you'd like to edit**. Below the heading, confirm that the mode selector is set to **Allow editing** (so Copilot can edit your document directly). If it shows **Chat only**, select the drop-down and then select **Allow editing**.
+3. In the bottom-right corner of the Word document, select the **Copilot** icon to open the Copilot pane. Verify the pane opens in edit mode. The heading should read **Let's edit your document**. Below the heading, confirm that the mode selector is set to **Allow editing** (so Copilot can edit your document directly). If it shows **Chat only**, select the drop-down and then select **Allow editing**.
 
 4. In the prompt field in the Copilot pane, ask Copilot to create a customer support template. Submit the following prompt:
 
    > [!NOTE]
    > For this first prompt, we've provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
     
-   **I'm the Customer Service Manager for Tailwind Traders. In order for Tailwind to raise the overall professionalism, clarity, and consistency of its outbound communications, please create a standardized written-response template that all Customer Support agents can use when replying to dealers. This template must:**
+   ```prompt
+   I'm the Customer Service Manager for Tailwind Traders. In order for Tailwind to raise the overall professionalism, clarity, and consistency of its outbound communications, please create a standardized written-response template that all Customer Support agents can use when replying to dealers. This template must:
     
-   - **Reflect Tailwind's confident and trusted brand voice.**
-   - **Capture all the information needed to properly evaluate a product-quality concern.**
-   - **Clearly outline the actions Tailwind took, as well as next steps the dealer must follow.**
-   - **Work well as a repeatable, clean format for email, Word attachments, or internal documentation.**
+   - Reflect Tailwind's confident and trusted brand voice.
+   - Capture all the information needed to properly evaluate a product-quality concern.
+   - Clearly outline the actions Tailwind took, as well as next steps the dealer must follow.
+   - Work well as a repeatable, clean format for email, Word attachments, or internal documentation.
         
-   **The template should include the following sections: Issue Summary, Product Details, Troubleshooting Actions Taken, Required Dealer Follow-Up, Expected Timeline.**
+   The template should include the following sections: Issue Summary, Product Details, Troubleshooting Actions Taken, Required Dealer Follow-Up, Expected Timeline.
+   ```
 
 5. Review the first draft of the template. While it looks like a good starting point, you feel it should include a few more sections that can capture everything a rep or dealer needs to move a case forward. Ask Copilot to add the following sections to the template, each with clear field labels:
 

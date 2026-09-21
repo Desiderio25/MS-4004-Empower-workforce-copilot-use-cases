@@ -25,9 +25,9 @@ By creating a consistent insights email, you can help Tailwind Traders move from
 
 #### Using Copilot Chat  
 
-In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in‑depth response style depending on the task.
+In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in-depth response style depending on the task.
 
-In **Work** mode, Copilot is optimized for secure, work-context queries, while **Web** mode retrieves external information from public sources. In either mode, you can use the response mode selector to choose between faster responses or deeper reasoning, or leave it set to **Auto** to let Copilot decide the appropriate response depth.
+When Microsoft Copilot opens with **Work IQ** turned on, the response mode selector remains visible. **Work IQ** provides secure work context for your queries. You can turn off **Work IQ** when you don't want Copilot to use work context. The response mode selector remains available in either state, allowing you to choose between faster responses and deeper reasoning.
 
 If you've used Copilot in Excel, you know that it also includes a response control selector. However, its options are different from the Chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might look similar, they control different aspects of Copilot and aren't the same setting.
 
@@ -35,9 +35,9 @@ Perform the following steps to complete this task:
 
 1. Select the following link to download the [**TailwindTraders_SupportCaseSummaries.docx**](https://go.microsoft.com/fwlink/?linkid=2347619) file. Store the file in your OneDrive.
 
-2. In your Microsoft Edge browser, navigate to the **Microsoft Copilot** home page.
+2. In your web browser, navigate to the **Microsoft Copilot** home page.
 
-3. Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs. In the Copilot Chat window, attach the **TailwindTraders_SupportCaseSummaries** file in the prompt field.
+3. Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work IQ** option. Turn off the **Work IQ** option doesn't apply here, since it searches external sources like public websites and blogs. In the Copilot Chat window, attach the **TailwindTraders_SupportCaseSummaries** file in the prompt field.
 
 4. Then ask Copilot Chat to review the support case summaries in the attached file and draft an email in Outlook for Tailwind Traders' executive leadership. Include top issue themes, customer sentiment, dealer escalation patterns, and recommended next actions. Don't list specific case numbers. 
 
@@ -51,7 +51,6 @@ Perform the following steps to complete this task:
 
    > [!IMPORTANT]
    > When Copilot Chat creates an email and opens it in Outlook, the email doesn't open in draft mode. Instead, Copilot's response is inserted directly into the message body. To modify the content, select the text you want Copilot to revise, such as a sentence, paragraph, or the entire email.
-
 
 7. After reviewing the email, you feel the first paragraph could be improved upon. To do so, highlight the first paragraph of the email (drag your cursor so that the entire opening paragraph is highlighted). Notice the **Open Copilot** icon that appears. Select the icon to open the Copilot window.
 
